@@ -64,9 +64,7 @@ public class Main9 {
                 int x = nx+dx[k];
                 int y = ny+dy[k];
 
-
                 if(x<0 || x>=m || y<0 || y>=n || dist[y][x][w] != -1) continue;
-
 
                 if(map[y][x]==0){
                     dist[y][x][w] = dist[ny][nx][w]+1;
@@ -79,11 +77,7 @@ public class Main9 {
                     }
 
                 }
-
-
             }
-
-
 
         }
 
